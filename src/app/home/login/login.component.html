@@ -1,24 +1,22 @@
-<Page xmlns="https://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
-    <Page.actionBar>
-        <ActionBar title="My app" icon="" class="action-bar">
-        </ActionBar>
-    </Page.actionBar>
-    <FlexboxLayout class="page">
-        <StackLayout class="form">
-            <Label class="header" text="eCommerce"></Label>
-            <StackLayout class="input-field" orientation="horizontal">
-                <Image src="~/../images/Otros/Personas.png" stretch="none">
-                </Image>
-                <TextField class="input" hint="Username" ></TextField>
-            </StackLayout>
-            <StackLayout class="input-field">
-                <TextField class="input" secure="true" hint="Password" ></TextField>
-            </StackLayout>
-
-            <Button text="Login" class="btn btn-primary"></Button>
-        </StackLayout>
-    </FlexboxLayout>
-
-
-
-</Page>
+<StackLayout style="height: 900" backgroundColor="#ffffff">
+  <AbsoluteLayout>
+    <Label class="bg-patron"></Label>
+    <Label class="circle large"></Label>
+    <Label class="circle medium"></Label>
+    <image src="res://logo_vital" class="logo-img"></image>
+  </AbsoluteLayout>
+  <TextField
+  hint="Usuario"
+  secure="false"
+  returnKeyType="done"
+  autocorrect="false"
+  maxLength="10"
+  style="font-size:24;"></TextField>
+  <TextField
+  hint="Contraseña"
+  secure="true"
+  returnKeyType="done"
+  autocorrect="false"
+  maxLength="10"
+  style="font-size:24;"></TextField>
+</StackLayout>
