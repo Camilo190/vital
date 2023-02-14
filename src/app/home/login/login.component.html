@@ -1,5 +1,5 @@
 <StackLayout style="height: 900" backgroundColor="#ffffff">
-  <AbsoluteLayout>
+  <AbsoluteLayout class="combined">
     <Label class="bg-patron"></Label>
     <Label class="circle large"></Label>
     <Label class="circle medium"></Label>
@@ -19,4 +19,7 @@
   autocorrect="false"
   maxLength="10"
   style="font-size:24;"></TextField>
+  <Button [nsRouterLink]="['/register']" class="btn btn-login" text="Ingresa"></Button>
+  <Label text="¿Aún no tienes cuenta?" class="txt" horizontalAlignment="center"></Label>
+  <label (tap)="onTap($event)" text="Regístrate aquí" class="txt registerHere" horizontalAlignment="center"></label>
 </StackLayout>

@@ -4,3 +4,8 @@
 Button.-primary {
   font-size: 18;
 }
+.btn{
+  border-radius: 50;
+  width: 80%;
+  font-size: 24;
+}

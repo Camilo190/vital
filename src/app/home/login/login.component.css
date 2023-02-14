@@ -1,3 +1,6 @@
+:root{
+    --main-color: #5c8313;
+}
 .bg-patron{
     background-image: url("res://patron_2");
     height: 250;
@@ -28,11 +31,26 @@
     left: 160;
     width: 80;
 }
+.combined{
+    margin-bottom: 40;
+}
 TextField{
-    margin-top: 50;
+    margin-top: 40;
     width: 80%;
     border-width: 1;
     border-color: black;
     border-radius: 50;
     padding: 10;
+}
+.btn-login{
+    background-color: #5c8313;
+    margin-top: 40;
+    margin-bottom: 30;
+}
+.txt{
+    font-size: 18;
+    color: black;
+}
+.registerHere{
+    color: #5c8313;
 }
